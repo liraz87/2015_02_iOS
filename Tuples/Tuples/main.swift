@@ -52,7 +52,7 @@ var f:YesNo;
 f = true;
 
 //scope:
-if(f){
+if f{
     var someVariable = "some variable";
     println(someVariable);
     println(rectangle1);
@@ -74,6 +74,53 @@ x--;
 ++x;
 --x;
 println(x);
+
+
+var y = 19;
+f = x==y;
+f = x != y;
+f = x > y;
+f = x < y;
+f = x <= y;
+println(f);
+
+var myString = x<y ? "hi" : "bye";
+
+for i in 1...10{
+    println("the value of i is \(i)");
+}
+
+for i in 0..<10{
+    println("the value of i is \(i)");
+}
+
+
+var b1:Bool = true;
+var b2:Bool = true;
+if b1 && b2{
+    println("b2 and b1");
+}
+
+
+
+if (1 < 2 && 3 > -1) || 1 == 3{
+    
+}
+
+//enums
+
+enum Gender{
+    case Male
+    case Female
+    case Transgender
+}
+
+var myGender:Gender = Gender.Male;
+var gen2 = Gender.Transgender;
+var gen3:Gender;
+gen3 = .Female;
+
+let gen4:Gender = .Female;
 
 
 
