@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0019D5A6-6ABB-43AE-8668-73F3F8DA196F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MathFunctions</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>674D367291CE492B663246F7C102F619328FEC25</key>
+		<string>https://github.com/eladlavi/2015_02_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MathFunctions/MathFunctions.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>674D367291CE492B663246F7C102F619328FEC25</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eladlavi/2015_02_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>674D367291CE492B663246F7C102F619328FEC25</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>674D367291CE492B663246F7C102F619328FEC25</string>
+			<key>IDESourceControlWCCName</key>
+			<string>2015_02_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

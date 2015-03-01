@@ -47,7 +47,58 @@ d2["elad"] = "qwer1234";
 //d2.updateValue("qwer1234", forKey: "elad3");
 println(d2["elad3"]);
 
-d2["elad"] = nil;
+//d2["elad"] = nil;
+
+for (key, value) in d2{
+    println("key: \(key), value: \(value)");
+}
+
+
+for key in d2.keys{
+    println(key);
+}
+
+
+//Loops:
+for var i=1 ; i<=10 ; ++i{
+    println("i=\(i)");
+}
+
+
+var i = 1;
+while i<=10{
+    println("i=\(i)");
+    i++;
+}
+var myString:NSString;
+
+//functions:
+
+func myFunc(){
+    println("in myFunc");
+}
+myFunc();
+
+
+func myFunc2()->String{
+    return "hello";
+}
+println(myFunc2());
+
+func averageScore(scores:[Float])->Float{
+    var sum:Float = 0;
+    var counter:Float = 0;
+    for score in scores{
+        sum += score;
+        counter += 1.0;
+    }
+    return sum/counter;
+}
+var myScores:[Float] = [1.3,4.6,3.9];
+println(averageScore(myScores));
+
+
+
 
 
 
