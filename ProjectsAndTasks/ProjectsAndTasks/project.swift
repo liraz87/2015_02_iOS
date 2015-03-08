@@ -17,8 +17,25 @@ class Project: TaskCompletedListener {
     }
     
     func taskCompleted(task: Task) {
-        println("task \(task.name) is completed.");
+        //println("task \(task.name) is completed.");
+        var done = true;
+        for task in tasks{
+            if !task.isCompleted {
+                done = false;
+                break;
+            }
+        }
+        if done {
+            println("project \(self.projectName) is completed.");
+        }
     }
     
+    func close(){
+        tasks.removeAll(keepCapacity: false);
+    }
+    
+    deinit{
+        println("project \(self.projectName) got deinitialized.");
+    }
     
 }

@@ -10,15 +10,23 @@ import Foundation
 
 
 
-var t:[Task] = [
+var t:[Task]? = [
     Task(taskName: "Choose receipe"),
     Task(taskName: "Buy groceries"),
     Task(taskName: "Prepare ingridients")
 ];
-var project:Project = Project(projectName: "Cook Dinner", tasks: t);
+var project:Project? = Project(projectName: "Cook Dinner", tasks: t!);
 
 
-for task in t{
-    task.setTaskCompletedListener(project);
+for task in t!{
+    task.setTaskCompletedListener(project!);
 }
-t[0].isCompleted = true;
+t![0].isCompleted = true;
+t![1].isCompleted = true;
+t![2].isCompleted = true;
+project!.close();
+
+project = nil;
+t = nil;
+
+

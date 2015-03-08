@@ -9,6 +9,7 @@
 import Foundation
 
 
+
 protocol TaskCompletedListener{
     func taskCompleted(task:Task);
 }
@@ -47,6 +48,10 @@ class Task {
     
     func setTaskCompletedListener(listener:TaskCompletedListener){
         self.listener = listener;
+    }
+    
+    deinit{
+        println("task \(self._name) got deinitialized.");
     }
     
 }
